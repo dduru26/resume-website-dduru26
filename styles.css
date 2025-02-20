@@ -61,7 +61,7 @@ p{font-family: "Helvetica Neue", sans-serif;
 
 .project-card {
     height: auto;
-    width: 1fr;
+    width: 100%;
     padding: 0px;
     color: #Ffffff;
     border-style: solid;
