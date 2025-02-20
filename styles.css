@@ -194,18 +194,20 @@ header{
     overflow: hidden;
 }
 
-@media (max-width:768px) {
+@media (min-device-width: 768px) {
     body{
         width:100%
+        padding: 20px;
     }
     footer{
-        width:92%
+        width:100vw;
+        border-color: rgba(0, 255, 127, 0);
     }
     .hero{
-        width:92%
+        width:100%
     }
     .projects{
-        width:92%
+        width:100%
     }
 }
 
@@ -237,4 +239,12 @@ a:hover{
     display: block;
     text-decoration: none;
     color: inherit;
+}
+
+.project-link:hover .project-wrapper {
+    transform: translateY(-5px);
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
