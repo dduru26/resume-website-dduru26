@@ -232,3 +232,9 @@ a{
 a:hover{
     color: #FC9338;
 }
+
+.project-link{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
