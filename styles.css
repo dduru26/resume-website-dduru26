@@ -1,3 +1,8 @@
+@font-face {
+   font-family: Instrument Serif;
+    src: url('Instrument Serif-Italic.ttf') format('truetype');
+}
+
 body {
     font-family: "Neue Haas Grotesk Display Pro";
     line-height: 1.6em;
@@ -19,10 +24,21 @@ body {
 }
 
 h1 {
-    font-family: "Inter Tight", Regular;
+    font-family:Instrument Serif, Serif;
+    font-style: italic;
     line-height: 1.6;
     margin: 0;
-    letter-spacing: .2px;
+    letter-spacing: 0px;
+    color: #FC9338;
+}
+
+h2{
+    font-family:Instrument Serif, Serif;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 0;
+    letter-spacing: 0px;
+    color: #FC9338;
 }
 
 p{font-family: "Helvetica Neue", sans-serif;
@@ -172,4 +188,27 @@ header{
     }
     .projects{80%
     }
+}
+
+@media (max-width:1200px) {
+    body{
+        width:100%
+    }
+    footer{
+        width:60%
+    }
+    .hero{
+        width:60%
+    }
+    .projects{60%
+    }
+}
+
+a{
+    color:#000000;
+    text-decoration: #000000;
+}
+
+a:hover{
+    color: #FC9338;
 }
