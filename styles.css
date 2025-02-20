@@ -142,7 +142,7 @@ h3{
     column-gap: 40px;
     row-gap: 20px;
     height: fit-content;
-    border: 3px solid rgba(0, 128, 0, 100);
+    border: 3px solid rgba(0, 128, 0, 0);
 }
 
 .social-icons {
@@ -204,7 +204,8 @@ header{
     .hero{
         width:80%
     }
-    .projects{80%
+    .projects{
+        width:60%
     }
 }
 
@@ -218,7 +219,8 @@ header{
     .hero{
         width:60%
     }
-    .projects{60%
+    .projects{
+        width:60%
     }
 }
 
