@@ -154,6 +154,7 @@ h3{
     border-radius: 16px;
     background-color: rgba(255, 255, 255, 0);
     width: 35%;
+    margin: auto;
     column-gap: 40px;
     display: flex;
     flex-direction: column;
@@ -194,10 +195,10 @@ header{
     overflow: hidden;
 }
 
-@media (min-device-width: 768px) {
+@media (max-width: 768px) {
     body{
-        width:100%
-        padding: 20px;
+        width:100%;
+        padding: 0px;
     }
     footer{
         width:100vw;
@@ -208,21 +209,6 @@ header{
     }
     .projects{
         width:100%
-    }
-}
-
-@media (max-width:1200px) {
-    body{
-        width:100%
-    }
-    footer{
-        width:60%
-    }
-    .hero{
-        width:60%
-    }
-    .projects{
-        width:60%
     }
 }
 
